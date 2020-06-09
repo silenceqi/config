@@ -1,0 +1,9 @@
+app:
+    name: yaml config
+    desc: this is just a experients project
+    author:
+        name: silenceqi
+        company: xiaoniao
+        hobby:
+            - basketball
+            - pingban

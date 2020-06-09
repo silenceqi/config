@@ -1,0 +1,49 @@
+server:
+  listen: 80
+  ApiAuthDB: ""
+  redis_api_session_expire: 0
+  work_fee_required_bound: 0
+  work_fee: 0
+  env: ""
+  user_relationship: ""
+  inner_add_discount: 0
+search:
+  IndexName: ""
+database:
+  mysql:
+    user: ""
+    password: ""
+    host: ""
+    port: 0
+    database: ""
+    write:
+      user: ""
+      password: ""
+      host: ""
+      port: 0
+      database: ""
+  redis:
+    password: ""
+    host: ""
+    port: 0
+  mgo:
+    user: ""
+    password: ""
+    uri: ""
+    database: ""
+weixin:
+  appid: ""
+  secret: ""
+  apikey: ""
+  mch_id: ""
+  paycb_notify_url: ""
+  scanpaycb_notify_url: ""
+  cert_file: ""
+  key_file: ""
+  front_host: ""
+  mp:
+    appid: ""
+    secret: ""
+  msg:
+    pay_success: ""
+    pay_success_mbh: ""
